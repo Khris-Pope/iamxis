@@ -21,8 +21,6 @@ a{
    text-decoration: none;
 }
 
-
-
 .container{
    max-width: 98rem;
    margin: 0 auto;
@@ -95,7 +93,11 @@ header{
    height: 4.5rem;
 }
 
-.iphone-11-pro{
+
+
+/* HERO VARIABLES */
+
+.hero-1{
    margin-top: 4.4rem;
    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/skincare.jpeg');
 }
@@ -171,8 +173,26 @@ header{
    left: 3px;
 }
 
-.iphone-11{
+
+
+/* HERO BACKGROUNDS */
+.hero-2{
    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/kit.png');
+}
+
+.hero-3{
+   margin-top: 4.4rem;
+   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/shop.png');
+}
+
+.hero-4{
+   margin-top: 4.4rem;
+   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/counselling.jpg');
+}
+
+.hero-5{
+   margin-top: 4.4rem;
+   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/business.jpg');
 }
 
 .newsletter{
@@ -199,26 +219,60 @@ header{
    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/blog.jpg');
 }
 
-/* BLOG BACKGROUNDS */
-.blog-back1{
+
+
+/* SHOP BACKGROUNDS */
+.shop-back1{
    margin-top: 4.5rem;
-   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('img/blog-back1.jpg');
+   background: url('img/p1.jpg');
 }
 
-.blog-back2{
+.shop-back2{
    margin-top: 4.5rem;
-   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('img/blog-back2.jpg');
+   background: url('img/InShot_20220806_132123560.jpg');
 }
 
-.blog-back3{
+.shop-back3{
    margin-top: 4.5rem;
-   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('img/blog-back3.jpg');
+   background: url('img/p3.jpg');
 }
 
-.blog-back4{
+.shop-back4{
    margin-top: 4.5rem;
-   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('img/blog-back4\(1\).png');
+   background: url('img/p4.jpg');
 }
+
+.shop-column{
+   flex: 50%;
+}
+
+
+
+/* SHOP PAGE */
+.shop-body{
+   color: #000;
+}
+
+.shop-head-details{
+   font-size: 4rem;
+   font-weight: 500;
+   line-height: 1.5;
+   text-align: left;
+   letter-spacing: -.008rem;
+}
+
+.shop-head-details2{
+   font-size: 4rem;
+   font-weight: 500;
+   line-height: 1.5;
+   text-align: left;
+   letter-spacing: -.008rem;
+   padding-top: 3.5rem;
+}
+
+
+
+/* BLOG */
 
 .blog-back5{
    margin-top: 4.5rem;
@@ -250,123 +304,19 @@ header{
    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('img/blog-back10.jpg');
 }
 
-
-/* REUSABLE BODY */
-.body-title{
-   color: #000;
+.blog-title-heading{
+   padding: 3rem;
+   font-size: 2.935rem;
    text-align: left;
+   line-height: 1.19565;
+   letter-spacing: -.005rem;
+   
 }
 
-.body-text{
-   font-size: 1.75rem;
-   margin-top: .6rem;
-   letter-spacing: -.008rem;
-   font-weight: 400;
-   line-height: 1.5;
-}
-
-/* POSTS */
-
-.text-body{
-   color: #000;
-   padding-top: 4rem;
-}
-
-.text-in-body{
-   font-size: 1.75rem;
-   line-height: 1.5;
+.blog-hero-text{
+   color: #fff;
    text-align: left;
-   letter-spacing: -.008rem;
-}
-
-.text-body .bxs-check-circle{
-   font-size: 5rem;
-   display: flex;
-   align-content: center;
-   justify-content: center;
-   margin-bottom: 3rem;
-}
-
-/* LEGAL PAGES */
-.legal-heading{
-   text-align: center;
-   padding-bottom: 3rem;
-}
-
-.legal-title{
    font-weight: 500;
-   font-size: 2.35rem;
-}
-
-.legal-heading .legal-edit{
-   padding-bottom: 0;
-}
-
-.legal-page h3{
-   font-weight: 500;
-   font-size: 1.85rem;
-   border-bottom: 5px solid #fff;
-}
-.legal-page p{
-   padding-bottom: 4rem;
-}
-
-.separator{
-   border-top: 1px solid #d6d6d6;
-   padding-bottom: 3rem;
-   width: 100%;
-}
-
-.next{
-   text-align: center;
-}
-
-.cta-nav{
-   display: inline-block;
-}
-
-
-.cta-nav:nth-child(2){
-   margin-left: 2.6rem;
-}
-
-.legal-page .list-pad{
-   padding-bottom: 4rem;
-}
-
-/* FAQS */
-.faq-title{
-   font-weight: 500;
-   font-size: 4rem;
-   text-align: left;
-   padding-bottom: 1rem;
-}
-
-.faq-edit{
-   text-align: left;
-}
-/* BLOG */
-
-
-.blog-section{
-   padding-block: 1rem;
-}
-.row{
-   display: flex;
-}
-
-.column{
-   flex: 50%;
-}
-
-.large-grid-margin{
-   margin-right: 1rem;
-   margin-top: 2.25rem;
-}
-
-.large-grid-margin-left{
-   margin-left: 1rem;
-   margin-top: 2.25rem;
 }
 
 .cat-text{
@@ -375,26 +325,24 @@ header{
    text-transform: uppercase;
 }
 
-.blog-title-heading{
-   font-weight: 600;
-   font-size: 2.935rem;
-   text-align: center;
+.blog-section p{
+   color: #fff;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   padding-bottom: 3rem;
+   text-align: left;
+   font-size: 1.7rem;
    line-height: 1.19565;
    letter-spacing: -.005rem;
-   padding: 3rem;
 }
 
-.blog-hero-text{
+.blog-section ul{
    color: #fff;
-   padding-top: 8rem;
-   text-align: center;
-}
-
-.blog-page p{
-   padding: 3rem;
-   padding-top: 2.5rem;
-   text-align: center;
-   font-size: 2.2rem;
+   font-size: 1.7rem;
+   line-height: 1.19565;
+   letter-spacing: -.005rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
 }
 
 .read-post{
@@ -418,6 +366,69 @@ header{
 .read-link:hover i{
    transform: translateX(0.5rem);
 }
+
+
+
+/* REUSABLE BODY TEXT VARIABLES */
+.body-title{
+   color: #000;
+   text-align: left;
+}
+
+.body-text{
+   font-size: 1.75rem;
+   margin-top: .6rem;
+   letter-spacing: -.008rem;
+   font-weight: 400;
+   line-height: 1.5;
+}
+
+.text-body{
+   color: #000;
+   padding-top: 4rem;
+}
+
+.text-in-body{
+   font-size: 1.75rem;
+   line-height: 1.5;
+   text-align: left;
+   letter-spacing: -.008rem;
+}
+
+.text-body .bxs-check-circle{
+   font-size: 5rem;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   margin-bottom: 3rem;
+}
+
+
+
+/* REUSABLE BACKGROUND COLUMNS */
+.row{
+   display: flex;
+}
+
+.column{
+   flex: 50%;
+   background-color: #000;
+}
+
+.large-grid-margin{
+   margin-top: 2.25rem;
+}
+
+.large-grid-margin-left{
+   margin-left: 1rem;
+   margin-top: 2.25rem;
+}
+
+.large-grid-margin-third{
+   margin-top: 2.25rem;
+}
+
+
 
 /* LEGAL PAGE */
 .pages-legal{
@@ -484,6 +495,142 @@ header{
 
 }
 
+
+
+/* LEGAL PAGES */
+.legal-heading{
+   text-align: center;
+   padding-bottom: 3rem;
+}
+
+.legal-title{
+   font-weight: 500;
+   font-size: 2.35rem;
+}
+
+.legal-heading .legal-edit{
+   padding-bottom: 0;
+}
+
+.legal-page h3{
+   font-weight: 500;
+   font-size: 1.85rem;
+   border-bottom: 5px solid #fff;
+}
+.legal-page p{
+   padding-bottom: 4rem;
+}
+
+.separator{
+   border-top: 1px solid #d6d6d6;
+   padding-bottom: 3rem;
+   width: 100%;
+}
+
+.next{
+   text-align: center;
+}
+
+.cta-nav{
+   display: inline-block;
+}
+
+
+.cta-nav:nth-child(2){
+   margin-left: 2.6rem;
+}
+
+.legal-page .list-pad{
+   padding-bottom: 4rem;
+}
+
+
+
+/* FAQS PAGE */
+.faq-title{
+   font-weight: 500;
+   font-size: 4rem;
+   text-align: left;
+   padding-bottom: 1rem;
+}
+
+.faq-edit{
+   text-align: left;
+}
+
+.faq-head{
+   text-align: center;
+   font-size: 1.85rem;
+   padding-top: 2.5rem;
+   padding-bottom: 2.5rem;
+   font-weight: 500;
+}
+
+.faq-section h4{
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+   font-weight: 500;
+}
+
+.faq-section p{
+   padding-bottom: 2rem;
+}
+
+
+
+/* I AM XIS BUSINESS PAGE */
+
+.price-btn{
+   margin-top: 3rem;
+   border: none;
+   cursor: pointer;
+   font-size: 1.5rem;
+   padding: 1rem;
+   margin-bottom: 5rem 0;
+   background: #fff;
+   transition: opacity .5s;
+}
+
+.price-btn a{
+   opacity: .7;
+}
+
+.bus-body h3{
+   text-align: left;
+   font-weight: 500;
+}
+
+.bus-price{
+   border-bottom: 1px solid #fff;
+}
+
+.bus-details{
+   padding-top: 3rem;
+}
+
+.bus-body{
+   color: #000;
+}
+
+.bus-body p{
+   font-weight: 400;
+   padding-top: 1.5rem;
+   padding-right: 6rem;
+}
+
+.bus-head-details{
+   float: left;
+   width: 50%;
+   padding-top: 5rem;
+   font-size: 3.5rem;
+   font-weight: 500;
+   line-height: 1.5;
+   text-align: left;
+   letter-spacing: -.008rem;
+}
+
+
+
 /* CONTACT STYLES */
 input,
 button,
@@ -503,7 +650,6 @@ textarea{
    padding-top: 6rem;
    flex-direction: column;
 }
-
 
 .contact-form input{
    font-size: 1.5rem;
@@ -535,6 +681,8 @@ textarea{
    column-gap: 5rem;
 
 } 
+
+
 
 /* GET IN TOUCH PAGE */
 .get-in-touch-real{
@@ -578,7 +726,6 @@ textarea{
    justify-content: center;
 }
 
-
 .contact-menu{
    overflow: hidden;
    display: flex;
@@ -594,7 +741,6 @@ textarea{
    margin-bottom: 5rem;
    text-align: center;
 }
-
 
 .contact-list a:hover{
    opacity: .7;
@@ -629,7 +775,6 @@ textarea{
 
 
 /* FOOTER */
-
 footer{
    top: 0;
    bottom: 0;
@@ -732,6 +877,8 @@ footer{
    justify-content: center;
 }
 
+/* END- HERO BACKGROUNDS KEPT SAFE */
+
 .hero{
    height: 40rem;
    background-size: cover;
@@ -741,7 +888,19 @@ footer{
    border-bottom: 2.5rem solid #fff;
 }
 
-.iphone-11-pro{
+.hero-1{
+   border-top: none;
+}
+
+.hero-3{
+   border-top: none;
+}
+
+.hero-4{
+   border-top: none;
+}
+
+.hero-5{
    border-top: none;
 }
 
@@ -780,11 +939,20 @@ footer{
 }
 
 .blog{
-   height: 45rem;
+   height: 63rem;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
+
+.shop{
+   height: 47rem;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1068px){
    .hero{
@@ -974,8 +1142,8 @@ footer{
       }
    }
 
-   .blog{
-      height: 40rem;
+   .shop{
+      height: 50rem;
    }
 
    .row{
@@ -984,6 +1152,14 @@ footer{
 
    .column{
       flex-direction: column;
+   }
+
+   .shop-head-details{
+      font-size: 3rem;
+   }
+
+   .shop-head-details2{
+      font-size: 3rem;
    }
 
    .large-grid-margin{
@@ -996,9 +1172,14 @@ footer{
       margin-top: 7rem;
    }
 
+   .large-grid-margin-third{
+      margin-left: auto;
+      margin-top: 7rem;
+   }
+
    .blog-title-heading{
       font-size: 2.5rem;
-      text-align: center;
+      text-align: left;
       line-height: 1.195;
       letter-spacing: -.005rem;
       padding: 2.5rem;
@@ -1034,6 +1215,14 @@ footer{
       font-size: 1.65rem;
    }
 
+   .bus-head-details{
+      float: none;
+      width: 100%;
+      display: block;
+      padding-top: 0;
+      font-size: 3rem;
+   }
+
    .legal-heading{
       padding-top: 2.5rem;
    }
@@ -1044,6 +1233,12 @@ footer{
 
    .legal-title{
       font-size: 2rem;
+   }
+
+   .bus-body p{
+      font-weight: 400;
+      padding-top: 1.5rem;
+      padding-right: 0;
    }
 
 
@@ -1059,6 +1254,22 @@ footer{
    .footer-legal-links{
       justify-content: left;
    }
+}
+
+@media screen and (max-width: 884px){
+   .bus-head-details{
+      float: none;
+      width: 100%;
+      display: block;
+      padding-top: 0;
+   }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+   .shop{
+      height: 60rem;
+   }
+
 }
 
 @media screen and (max-width: 735px){
@@ -1139,6 +1350,8 @@ footer{
 }
 
 
+
+/* FOOTER BROUGHT TO THE END */
 .footer-more-ways a{
    color: #efefef;
    display: inline-flex;
