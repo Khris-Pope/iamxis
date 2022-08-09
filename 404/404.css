@@ -1,0 +1,21 @@
+/* 404 PAGE */
+.page-not-found{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 65vh;
+}
+
+.page-not-found h2{
+   font-size: 3rem;
+   font-weight: 600;
+   padding-bottom: 3rem;
+   text-align: center;
+}
+
+.page-not-found p{
+   text-align: center;
+   font-size: 2rem;
+}
